@@ -1,16 +1,38 @@
-# React + Vite
+# 🎙️ Speaktutuor
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+**Speaktutuor** is a modern, responsive React UI project that focuses on creating an engaging and motivational language learning interface.  
+It includes elegant layouts, colorful cards, and interactive icons to make the design both functional and visually appealing.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Tech Stack Used
 
-## React Compiler
+- **React.js** – For building the user interface using components.  
+- **Tailwind CSS** – For fast, utility-first and responsive styling.  
+- **lucide-react** – For lightweight and customizable icons (e.g., MessageCircle).  
+- **react-icons** – For additional icons like Heart, Bars, Robot, User, and Image.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## ⚙️ Project Setup Steps
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+1. **Clone the repository**
+   ```bash
+   git clone https://github.com/raj81040/Assignment
+   cd speaktutuor
+   npm install
+   npm run dev
+
+   🧩 Component Structure
+
+The project contains a single component: MainFile.jsx
+It includes multiple sections:
+A motivation section with quotes and buttons
+A chat section showing user and robot cards
+A tutor preview section styled like a mobile chat
+A testimonial section with user feedback
+
+📱 Responsiveness & Style
+The design is fully responsive, using Tailwind’s responsive classes.
+
+
